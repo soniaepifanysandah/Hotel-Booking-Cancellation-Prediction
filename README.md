@@ -26,7 +26,7 @@ Dataset yang digunakan terdiri dari 119.390 baris dan 36 kolom.
 
 **1. Lead Time**
 <p align="center">
-   <img src="picture/Picture1.png" width = 400 px>
+   <img src="picture/Picture1.png" width = 800 px>
 </p>
 
 Pemesanan hotel dengan lead time lebih dari **7 bulan** memiliki peluang pembatalan lebih besar (>50%). **Semakin lama Lead time semakin tinggi kemungkinan pemesanan dibatalkan**.
@@ -34,7 +34,7 @@ Pemesanan hotel dengan lead time lebih dari **7 bulan** memiliki peluang pembata
 **2. Parking Space & Cancelled Rate**
 
 <p align="center">
-   <img src="picture/Picture2.png" width = 400 px>
+   <img src="picture/Picture2.png" width = 800 px>
 </p>
 
 Pemesanan yang memerlukan tempat parkir tidak melakukan pembatalan pesanan.
@@ -42,7 +42,7 @@ Pemesanan yang memerlukan tempat parkir tidak melakukan pembatalan pesanan.
 **3. Cancellation rate by market segment**
 
 <p align="center">
-   <img src="picture/Picture3.png" width = 400 px>
+   <img src="picture/Picture3.png" width = 800 px>
 </p>
 
 Pembatalan tertinggi dilakukan oleh segmen pasar Group dengan pembatalan sebesar 61%, kemudian Online TA, dan yang ketiga Offline TA/TO. <br>
@@ -51,7 +51,7 @@ Pembatalan tertinggi dilakukan oleh segmen pasar Group dengan pembatalan sebesar
 **4. Guest location**
 
 <p align="center">
-   <img src="picture/Picture4.png" width = 400 px>
+   <img src="picture/Picture4.png" width = 800 px>
 </p>
 
 Pemesan turis lokal memiliki kemungkinan lebih tinggi untuk pembatalan pemesanan.
@@ -59,7 +59,7 @@ Pemesan turis lokal memiliki kemungkinan lebih tinggi untuk pembatalan pemesanan
 **5. Cancellation rate for previously cancelled booking**
 
 <p align="center">
-   <img src="picture/Picture5.png" width = 400 px>
+   <img src="picture/Picture5.png" width = 800 px>
 </p>
 
 Pemesan yang sebelumnya pernah melakukan pembatalan pemesanan, memiliki kemungkinan lebih tinggi untuk membatalkan pesanannya.
@@ -100,7 +100,7 @@ Feature yang dihapus karena tidak digunakan :
 
 # Modelling
 <p align="center">
-   <img src="picture/Picture6.png" width = 400 px>
+   <img src="picture/Picture6.png" width = 800 px>
 </p>
 
 Pada project ini dicoba beberapa algoritma dan didapatkan hasil precision yang paling baik adalah dengan **LightGBM** dengan hasil precision 91%.
@@ -108,7 +108,7 @@ Pada project ini dicoba beberapa algoritma dan didapatkan hasil precision yang p
 # Feature Importance
 
 <p align="center">
-   <img src="picture/Picture7.png" width = 400 px>
+   <img src="picture/Picture7.png" width = 800 px>
 </p>
 
 Feature yang paling berpengaruh terhadap pembatalan pesanan adalah adr.
@@ -120,7 +120,7 @@ Feature yang paling berpengaruh terhadap pembatalan pesanan adalah adr.
 Berikut gambaran / flowchart implementasi dari penggunaan machine learning untuk pemesanan hotel :
 
 <p align="center">
-   <img src="picture/Picture8.png" width = 400 px>
+   <img src="picture/Picture8.png" width = 800 px>
 </p>
 
 ---
@@ -141,7 +141,7 @@ Berikut beberapa rekomendasi bisnis berdasarkan hasil analisa data :
 # Simulasi
 
 <p align="center">
-   <img src="picture/Picture8.png" width = 400 px>
+   <img src="picture/Picture9.png" width = 800 px>
 </p>
 
 Dengan menggunakan algoritma machine learning yang sudah didapatkan, kemudian diaplikasikan ke data pemesanan hotel dan didapatkan tingkat pembatalan pemesanan dari 37% menjadi 16%. Hal ini tentu saja berkaitan erat dengan revenue, dimana awalnya potensi penurunan revenue sebesar 25% menjadi 16%.
